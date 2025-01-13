@@ -1,0 +1,23 @@
+pet_type = "cat"
+pet_name = "lily"
+pet_pronoun = "her"
+#these set up variables
+
+print(f"I have a {pet_type} and {pet_pronoun} name is {pet_name}.")
+#pet F string statement
+
+first_name = input("enter your first name:")
+current_age = int(input("enter your current age:"))
+yearly_savings = int(input("enter your yearly savings:"))
+print(f"Hello {first_name}! You are currently {current_age} years old.")
+print(f"In 10 years you will be {current_age + 10} years old.")
+print(f"If you save ${yearly_savings} in 5 years, you will have ${yearly_savings * 5}")
+print(f"Your average monthly savings are ${yearly_savings / 12}")
+#step two of the homework
+
+print(f"The number of seconds in january is {31 * 24 * 60 * 60}")
+#step three of the homework
+
+egg_number = int(input("enter the number of eggs:"))
+print(f"This makes {egg_number // 12} dozen eggs with {egg_number % 12} left over.")
+#final step
