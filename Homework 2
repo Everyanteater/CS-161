@@ -1,0 +1,24 @@
+x = int(input("What variable number do you want?"))
+print(x, bin(x), hex(x))
+#Step 1 and 2 if 1.825 is input, it doesnt work because a decimal is not base 10
+
+c = 0b111
+g = 0xA3
+print(c, g)
+#step 3
+
+r = c + g + x
+print("the sum is", r)
+#step 4
+
+original_size = 320
+dictionary_size = 21
+comp_size = 230
+compression_percent=(1-((comp_size+dictionary_size)/original_size))*100
+#i was told that the colons needed to align
+print("compressed text size      :", str(comp_size), " characters")
+print("dictionary size           :", str(dictionary_size), " characters")
+print("total                     :", str(comp_size+dictionary_size), " characters")
+print("original text size        :", str(original_size), " characters")
+print("compression percent       :"+str(compression_percent)+"%.")
+#compression
