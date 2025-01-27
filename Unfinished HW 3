@@ -1,0 +1,5 @@
+x = input("what is your name?")
+print("hello " + x)
+y = int(input("what is your age?"))
+print(y + 5)
+#the input has to be converted into an integer
